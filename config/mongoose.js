@@ -1,4 +1,4 @@
-const mongoose = require('Mongoose')
+const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost/url-list', { useNewUrlParser: true, useUnifiedTopology: true })
 const db = mongoose.connection
