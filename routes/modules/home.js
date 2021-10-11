@@ -35,7 +35,7 @@ router.get('/:shortenUrl', (req, res) => {
     .lean()
     .then(url => {
       if (!url) {
-        res.redirect('/')
+        res.render('notFound', { wrongUrl: req.params.shortenUrl })
       } else {
         res.redirect(url.originalUrl)
       }

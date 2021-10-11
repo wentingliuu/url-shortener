@@ -6,6 +6,7 @@ body {
   margin: 13% 0 0 35%;
   padding: 3% 5%;
   width: 30vw;
+  height: 30vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +21,7 @@ body {
 
 img {
   width: 10vw;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   padding: 4%;
 }
 
@@ -31,8 +32,7 @@ h1 {
 }
 
 input {
-  border-radius: 50%;
-  width: 10vw;
+  width: 15vw;
 }
 
 a {
@@ -42,5 +42,10 @@ a {
 
 h5 {
   font-size: 1.2vw;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-size: 1vw;
   margin-bottom: 0;
 }
