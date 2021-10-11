@@ -17,7 +17,7 @@ router.post('/shorten', (req, res) => {
     .findOne({ originalUrl })
     .lean()
     .then(url => {
-      if (!url) {
+      if (!url) { // check if the shorten url for this url has created
         shortenUrl = createShortenUrl()
         Url.create({ originalUrl, shortenUrl })
       } else {
