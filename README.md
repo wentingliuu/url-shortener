@@ -37,7 +37,7 @@ npm run dev
 *  SHORTEN PAGE (When the shorten url is created)
 ![SHORTEN PAGE](https://github.com/wentingliuu/url-shortener/blob/main/public/img/shorten.png)
 *  NOT FOUND PAGE (When the shorten url you entered could not found in database)
-![NOT FOUND PAGE](https://github.com/wentingliuu/url-shortener/blob/main/public/img/shorten.png)
+![NOT FOUND PAGE](https://github.com/wentingliuu/url-shortener/blob/main/public/img/notFound.png)
 
 ## Prerequisites
 *  [Visual Studio Code](https://code.visualstudio.com/) - development environment
