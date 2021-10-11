@@ -32,8 +32,12 @@ npm run dev
 - While the terminal returns `Express is listening on localhost:3000`, please go to http://localhost:3000 on your browser.
 
 ## Screenshots
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](https://github.com/wentingliuu/url-shortener/blob/main/public/img/home.png)
+HOME PAGE
+![HOME PAGE](https://github.com/wentingliuu/url-shortener/blob/main/public/img/home.png)
+SHORTEN PAGE (When the shorten url is created)
+![SHORTEN PAGE](https://github.com/wentingliuu/url-shortener/blob/main/public/img/shorten.png)
+NOT FOUND PAGE (When the shorten url you entered could not found in database)
+![NOT FOUND PAGE](https://github.com/wentingliuu/url-shortener/blob/main/public/img/shorten.png)
 
 ## Prerequisites
 *  [Visual Studio Code](https://code.visualstudio.com/) - development environment
