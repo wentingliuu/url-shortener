@@ -3,7 +3,7 @@ body {
 }
 
 .box {
-  margin: 14% 0 0 35%;
+  margin: 13% 0 0 35%;
   padding: 3% 5%;
   width: 30vw;
   display: flex;
@@ -33,4 +33,14 @@ h1 {
 input {
   border-radius: 50%;
   width: 10vw;
+}
+
+a {
+  font-size: 1.2vw;
+  margin-left: 0.4vw;
+}
+
+h5 {
+  font-size: 1.2vw;
+  margin-bottom: 0;
 }
